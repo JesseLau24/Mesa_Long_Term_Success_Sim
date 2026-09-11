@@ -1,22 +1,22 @@
-# Jupyter Notebook 缓存
+# Jupyter Notebook cache
 .ipynb_checkpoints/
 
-# Python 编译缓存
+# Python cache
 __pycache__/
 *.py[cod]
 *$py.class
 
-# 虚拟环境目录（防止把整个 venv 误提交上去）
+# venvs
 .venv/
 venv/
-rl_torch/
 
-# 环境/密钥文件
+# env keys and keyrings and etc
 .env
 
-# VS Code / IDE 临时配置
+# VS Code / IDE 
 .vscode/
 .idea/
 
-# Generated media files / 忽略生成的.mp4文件
+# Generated media files 
+*.wav
 *.mp4
